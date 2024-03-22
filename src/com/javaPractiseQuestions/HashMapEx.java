@@ -7,10 +7,10 @@ public class HashMapEx {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// create a hashmap object
+		// create an object of Hashmap
 		HashMap<String, Integer> hmPeople = new HashMap<String, Integer>();
 		
-		//add peple age 
+		//add people age 
 		hmPeople.put("Debra", 34);
 		hmPeople.put("Stella", 29);
 		hmPeople.put("Daniel", 39);

@@ -6,13 +6,10 @@ public class EvenOddNum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//		//Enter a number(from scanner class)in console
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter a number ");
-//		int num = sc.nextInt();
+
 		EvenOddMethod();
 		EvenOddMethod();
-        test();
+		getEvenNum(5);
 	}
 
 	public static void EvenOddMethod() {
@@ -26,9 +23,11 @@ public class EvenOddNum {
 			System.out.println("Given number is Odd " + num);
 
 	}
-	
-	public static void test() {
-		for(int i=0; i<10; i=i+2) {
+
+	public static void getEvenNum(int num) {
+
+		System.out.println("Even numbers in given number: "+num );
+		for (int i = 0; i < num; i = i + 2) {
 			System.out.println(i);
 		}
 	}

@@ -3,7 +3,8 @@ package com.javaPractiseQuestions;
 public class CaluculateArea {
 
 	public static void main(String[] args) {
-
+		
+        // create object of class to call the metods
 		CaluculateArea area = new CaluculateArea();
 		area.areaOfSquare(5);
 		int area_Rectangle = area.areaOfRectangle(4, 5);
@@ -16,25 +17,25 @@ public class CaluculateArea {
 
 	public void areaOfSquare(int side) {
 
-		int areaSq = side * side;
-		System.out.println("Area Of Square : " + areaSq);
+		int areaOfSq = side * side;
+		System.out.println("Area Of Square : " + areaOfSq);
 	}
 
 	public int areaOfRectangle(int length, int width) {
-		int areaRect = length * width;
-		return areaRect;
+		int areaOfRect = length * width;
+		return areaOfRect;
 	}
 
 	public double areaOfCircle(double radius) {
 
 		double pi = 3.14;
-		double areaCir = pi * radius * radius;
-		return areaCir;
+		double areaOfCir = pi * radius * radius;
+		return areaOfCir;
 	}
 
 	public void areaOfCylinder(double radius, double height) {
 		double pi = 3.14;
-		double areaCyli = 2 * pi * radius * radius * height;
-		System.out.println("Area Of Cylinder : " + areaCyli);
+		double areaOfCyli = 2 * pi * radius * radius * height;
+		System.out.println("Area Of Cylinder : " + areaOfCyli);
 	}
 }
