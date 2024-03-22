@@ -14,6 +14,7 @@ public class HashMapEx {
 		hmPeople.put("Debra", 34);
 		hmPeople.put("Stella", 29);
 		hmPeople.put("Daniel", 39);
+		hmPeople.put("Mike", 32);
 		
 		for(String peopleName : hmPeople.keySet()) {
 			
