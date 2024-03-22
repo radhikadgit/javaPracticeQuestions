@@ -11,7 +11,7 @@ public class CaluculateArea {
 		System.out.println("Area Of Rectangle : " + area_Rectangle);
 		double area_circle = area.areaOfCircle(2);
 		System.out.println("Area Of Circle : " + area_circle);
-		area.areaOfCylinder(2, 3);
+		area.areaOfCylinder(2, 4);
 
 	}
 

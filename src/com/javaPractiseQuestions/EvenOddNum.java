@@ -10,6 +10,7 @@ public class EvenOddNum {
 		EvenOddMethod();
 		EvenOddMethod();
 		getEvenNum(5);
+		getEvenNum(41);
 	}
 
 	public static void EvenOddMethod() {
