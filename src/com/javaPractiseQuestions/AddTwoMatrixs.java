@@ -9,7 +9,7 @@ public class AddTwoMatrixs {
 		
 		int m=a1.length;
 		int n=a2.length;
-		System.out.println(m+" "+n);
+		System.out.println("length of array 1 and 2 : "+m+" "+n);
 		
 		int sum[][] = new int[m][n];
 		
@@ -21,12 +21,7 @@ public class AddTwoMatrixs {
 				System.out.print(sum[i][j]+" ");     			
 			}			
 		}
-//		 for(int a=0; a<m; a++) {
-//			 for(int b=0; b<n; b++) {
-//				 sum[a][b]=a1[a][b]+a2[a][b];
-//				 System.out.println(sum+" ");
-//			 }
-//		 }
+
 		
 	}
 
