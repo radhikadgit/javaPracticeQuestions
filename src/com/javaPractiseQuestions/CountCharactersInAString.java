@@ -10,7 +10,7 @@ public class CountCharactersInAString {
 		System.out.println(totalLength);
 		
 		//count white spaces in a string
-		int afterRemoveChar =str1.replace("n", "").length();
+		int afterRemoveChar =str1.replace(" ", "").length();
 		System.out.println(afterRemoveChar);
 		
 		int count = totalLength-afterRemoveChar;
